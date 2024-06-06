@@ -1,9 +1,16 @@
 import "./layout.scss"
 import Navbar from "./components/navbar/Navbar";
 import HomePage from "./routes/homepage/homepage";
+import{
+  createBrowserRouter,
+  RouterProvider,
+  
+} from "react-router-dom"
+
 
 function App() {
 
+   
 
   return (
     <div className="layout">
